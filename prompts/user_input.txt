@@ -1,0 +1,5 @@
+Selected Mode: {{MODE}}
+therapist_mode: {{THERAPIST_MODE}}
+
+Code to analyze:
+{{CODE}}
