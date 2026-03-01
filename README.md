@@ -1,71 +1,143 @@
-# neurolint README
+# 🧠 NeuroLint
 
-This is the README for your extension "neurolint". After writing up a brief description, we recommend including the following sections.
+## AI That Understands Code the Way Humans Do
 
-## Features
+NeuroLint is an AI-powered cognitive code analysis system that evaluates
+**how mentally demanding code is for developers**, adapting feedback
+based on experience level.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+------------------------------------------------------------------------
 
-For example if there is an image subfolder under your extension project workspace:
+## 🚀 The Problem
 
-\!\[feature X\]\(images/feature-x.png\)
+Modern developers face increasing cognitive overload.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Existing tools: - check syntax ✅ - detect bugs ✅ - explain logic ✅
 
-## Requirements
+But none answer:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+> Why does this code feel difficult to reason about?
 
-## Extension Settings
+------------------------------------------------------------------------
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## 💡 Our Solution
 
-For example:
+NeuroLint models how developers with different experience levels
+perceive the same code.
 
-This extension contributes the following settings:
+It evaluates: - Logical clarity - Structural complexity - Naming
+semantics - Abstraction alignment - Mental reasoning effort -
+Maintainability impact
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+------------------------------------------------------------------------
 
-## Known Issues
+## 🧠 What Makes NeuroLint Different
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### ✅ Experience-Adaptive Intelligence
 
-## Release Notes
+The same code produces different cognitive scores for: - Beginner
+developers - Intermediate developers - Expert engineers
 
-Users appreciate release notes as you update your extension.
+### ✅ Cognitive Load Engine
 
-### 1.0.0
+    Static Structural Analysis
+            +
+    Experience Compression Model
+            +
+    LLM Reasoning
+            +
+    Validity Self-Audit Layer
 
-Initial release of ...
+### ✅ Structured AI Reasoning
 
-### 1.0.1
+Every analysis includes: - Explanation - Issues - Refactor Suggestions -
+Mental Model - Validity Matrix
 
-Fixed issue #.
+------------------------------------------------------------------------
 
-### 1.1.0
+## 🏗️ System Architecture
 
-Added features X, Y, and Z.
+              Developer
+                  │
+                  ▼
+          VS Code Extension
+                  │
+                  ▼
+          NeuroLint Cloud API
+                  │
+                  ▼
+      Cognitive Analysis Engine
+                  │
+                  ▼
+     Structured Human-Centric Feedback
 
----
+------------------------------------------------------------------------
 
-## Following extension guidelines
+## ⚡ Key Features
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+-   Cognitive Load Scoring
+-   Experience-Based Analysis Modes
+-   Mental Model Extraction
+-   Refactor Impact Estimation
+-   Therapist Mode (Cognitive Overload Detection)
+-   Azure Cloud Deployment
+-   Real-Time VS Code Integration
+-   CI/CD Automated Deployment
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+------------------------------------------------------------------------
 
-## Working with Markdown
+## ☁️ Cloud-Native Deployment
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Backend deployed using: - Microsoft Azure App Service - GitHub Actions
+CI/CD - Automated container startup
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Deployment flow:
 
-## For more information
+    Push → GitHub → Build → Azure → Live NeuroLint API
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+------------------------------------------------------------------------
 
-**Enjoy!**
+## 🧩 Example Workflow
+
+1.  Developer selects code
+2.  Chooses experience level
+3.  Runs NeuroLint analysis
+4.  Receives cognitive breakdown
+5.  Applies refactor suggestions
+
+------------------------------------------------------------------------
+
+## 🎯 Why This Matters
+
+As software systems grow, the limiting factor is no longer computation.
+
+It is **human comprehension**.
+
+NeuroLint treats developer cognition as a first-class engineering
+metric.
+
+------------------------------------------------------------------------
+
+## 🔮 Future Vision
+
+-   One-Click AI Refactor Actions
+-   Adaptive UI based on developer cognition
+-   Team Cognitive Analytics
+-   Personalized developer assistance
+
+------------------------------------------------------------------------
+
+## 👥 Team NeuroLint
+
+Built at the intersection of: - Developer Experience - Cognitive
+Science - AI Systems - Human-Centered Programming
+
+------------------------------------------------------------------------
+
+## 📜 License
+
+MIT License
+
+------------------------------------------------------------------------
+
+⭐ Star the repo if NeuroLint reshapes how you think about code.
